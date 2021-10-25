@@ -61,13 +61,14 @@ table caption{
 }
 table tr:nth-child(even){
     background-color:rgba(0,0,0,.1);
+}
     table tr:hover{
     background-color:rgba(0,0,0,.2);
 }
 table tr:hover{
   background-color:rgba(0,0,0,.25);
 }
-}
+
 table td{
   border:1px solid #c0c0c0;
   padding:5px;
@@ -83,6 +84,7 @@ table th{
 body{
       font-family: 'Lato', sans-serif;
       margin:0;
+      line-height: 1.6;
       }
       
      header.primary{
@@ -285,6 +287,11 @@ aside article.widget footer{
 #colophon {
   background-color: #E472F2;
   /*backgroud image*/
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' 
+viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC'
+fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 
+40'/%3E%3C/g%3E%3C/svg%3E");
+  
 }
 
 #colophon h6{
