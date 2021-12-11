@@ -1,0 +1,87 @@
+html{
+    
+    box-sizing:border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container{
+  width:70vw;
+  margin: 40px auto;
+  max-width:960px;
+}
+  
+.img-right{
+  float:right;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin:10px 0px 10px 20px;
+}
+
+.img-left{
+  float:left;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  border:10px 20px 10px 0px;
+  margin-left:20px;
+}
+  
+  .img-center {
+  display:block;
+  border:1px solid #c0c0c0;
+  padding:5px;
+  margin: 20px auto;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+header.primary::before{
+    content: "";
+    background-image:url(/ifsc-1310-fall-2021/dragon/assets/img/Dragon-Logo.png ");
+}
+
+
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  border-collapse:collapse;
+  
+}
+
+table caption{
+  color:#3b638b;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+table tr:nth-child(even){
+    background-color:rgba(0,0,0,.1);
+}
+    table tr:hover{
+    background-color:rgba(0,0,0,.2);
+}
+table tr:hover{
+  background-color:rgba(0,0,0,.25);
+}
+
+table td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+table th{
+  background-color:#172635;
+  color:#fff;
+  width:33%;
+  padding:10px;
+}
