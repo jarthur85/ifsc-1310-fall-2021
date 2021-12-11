@@ -64,7 +64,7 @@ header.primary nav a:active{
 
 header.primary::before{
     content: "";
-    background-image:url(/ifsc-1310-fall-2021/dragon/assets/img/Dragon-Logo.png ");
+    background-image:url(/ifsc-1310-fall-2021/dragon/assets/img/Dragon-Logo.png );
     background-size:cover;
     position:absolute;
     top: 0;
@@ -125,7 +125,9 @@ section#articles .container{
   justify-content:space-between;
   flex-wrap:wrap;
 }
-/*-----YOU ARE HERE____*/
+#hero{
+  padding:3em;
+}
 
 table{
   width:100%;
