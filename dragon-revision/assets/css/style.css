@@ -250,11 +250,11 @@ aside article.widget {
   width: 45%;
 }
 
-aside a.read-more:link {
+/*aside a.read-more:link {
   color: white;
   display: block;
   margin-top: 10px;
-}
+}*/
 
 aside article.widget footer {
   display: none;
