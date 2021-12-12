@@ -65,7 +65,7 @@ header.primary nav a:active{
 
 header.primary::before{
     content: "";
-    background-image:url("../dragon-revision/assets/img/Dragon-Logo.png");
+    background-image:url("../assets/img/Dragon-Logo.png");
     background-size:cover;
     position:absolute;
     top: 0;
