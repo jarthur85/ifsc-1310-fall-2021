@@ -25,5 +25,6 @@ p{
 ul li a{
   color: white;
   text-align: inherit;
-  text-decoration: none;
+
+  list-style: none;
 }
