@@ -10,11 +10,12 @@ body{
     /*background-color:#FA69E5;*/
     text-align: center;
     color:white;
-    
+   
     font-family: 'Lato', sans-serif;
       margin:0;
 }
 ul li a{
   color: white;
   text-align: inherit;
+  text-decoration: none;
 }
